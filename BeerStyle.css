@@ -1,9 +1,6 @@
 body {
   background-image: url(minblack.jpg);
   background-size: cover;
-  /* object-fit: cover;
-  height: 550px;
-  width: 100%; */
 }
 
 .navdiv {
@@ -53,7 +50,6 @@ img {
 }
 
 img:hover {
-  /* transform: translateX(200px) */
   transform: scale(1.1);
 }
 
