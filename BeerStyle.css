@@ -1,121 +1,103 @@
 body {
-    background-image: url(minblack.jpg);
-    background-size: fill;
-   object-fit: cover;
-   height: 550px;
-   width: 100%;
+  background-image: url(minblack.jpg);
+  background-size: cover;
+  /* object-fit: cover;
+  height: 550px;
+  width: 100%; */
 }
 
-
-.navdiv{
-
-    text-align: right;
-    font-family: 'Stick No Bills', sans-serif;
-    color: black;
-    font-size: 20px; 
-    
-   
-
+.navdiv {
+  text-align: right;
+  font-family: "Stick No Bills", sans-serif;
+  color: black;
+  font-size: 20px;
 }
 
 .ul1 {
-
-    display: inline-block;
-    list-style: none; 
-    text-align: right;
-    background-color: gainsboro;
+  display: inline-block;
+  list-style: none;
+  text-align: right;
+  background-color: gainsboro;
 }
 .container2 {
-
-    display:flex;
-    flex-wrap: wrap; 
-    justify-content:center; 
-    justify-content: space-evenly;
-    column-gap: 10px;
-    margin: 20px 20px 20px 20px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  column-gap: 10px;
+  margin: 20px 20px 20px 20px;
 }
 
 .container3 {
-    display:flex;
-    flex-wrap: wrap; 
-    justify-content:center; 
-    justify-content: space-between;
-    column-gap: 10px;
-    margin: 20px 20px 20px 20px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  column-gap: 10px;
+  margin: 20px 20px 20px 20px;
 }
 
 .container4 {
-    display:flex;
-    flex-wrap: wrap; 
-    justify-content:center; 
-    justify-content: space-evenly;
-    column-gap: 10px;
-    margin: 20px 20px 20px 20px; 
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  column-gap: 10px;
+  margin: 20px 20px 20px 20px;
 }
-img{
-
-    width: 450px;
-    height: 300px;
-    transition: all 1s; 
-    box-shadow: 5px 5px 5px #FFAA00;
+img {
+  width: 450px;
+  height: 300px;
+  transition: all 1s;
+  box-shadow: 5px 5px 5px #ffaa00;
 }
 
 img:hover {
-    /* transform: translateX(200px) */
-    transform: scale(1.1)
-    
-
+  /* transform: translateX(200px) */
+  transform: scale(1.1);
 }
-
 
 h1 {
-    text-align: center;
-    font-size: 100px; 
-    color: #FFAA00; 
-    font-family: 'Stick No Bills', sans-serif;
-    border-bottom: 7px solid #B27600;
-    width: 800px;
-    border-right: 7px solid #B27600;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    box-shadow: 10px 10px 15px #FFAA00;
-
+  text-align: center;
+  font-size: 100px;
+  color: #ffaa00;
+  font-family: "Stick No Bills", sans-serif;
+  border-bottom: 7px solid #b27600;
+  width: 800px;
+  border-right: 7px solid #b27600;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  box-shadow: 10px 10px 15px #ffaa00;
 }
 
-
-
-.p1{
-    color:  #FFAA00;
-    text-align: center;
-    font-size: 100px;
-    transition: all 1s;
-    box-shadow: 10px 10px 10px 10px #FFAA00;
-    width: 800px;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    
+.p1 {
+  color: #ffaa00;
+  text-align: center;
+  font-size: 100px;
+  transition: all 1s;
+  box-shadow: 10px 10px 10px 10px #ffaa00;
+  width: 800px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
 p:hover {
-    /* transform: scale(1.1) */
-    transform:translate(20px,40px);
-    
+  /* transform: scale(1.1) */
+  transform: translate(20px, 40px);
 }
 
-.under2{
-display:inline-block;
-margin:0px; 
-margin-right: 100px;
-padding: 10px; 
-background-color: gainsboro;
-font-size: 20px;
-color:red
+.under2 {
+  display: inline-block;
+  margin: 0px;
+  margin-right: 100px;
+  padding: 10px;
+  background-color: gainsboro;
+  font-size: 20px;
+  color: red;
 }
 
-.under2 li{
-    display:inline;
-
+.under2 li {
+  display: inline;
 }
