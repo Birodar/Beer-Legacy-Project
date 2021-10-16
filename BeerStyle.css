@@ -1,6 +1,6 @@
 body {
   background-image: url(minblack.jpg);
-  background-size: cover;
+  background-size: center;
 }
 
 .navdiv {
@@ -21,8 +21,12 @@ body {
   padding-right: 5px;
 }
 
-.TMainPage{
+.TMainPage {
   color:black; 
+} 
+
+.TMainPage:hover{
+  color: darkslategray;
 }
 .container2 {
   display: flex;
@@ -65,16 +69,17 @@ img:hover {
 h1 {
   text-align: center;
   font-size: 100px;
+  font-weight: bold;
   color: #ffaa00;
   font-family: "Stick No Bills", sans-serif;
   border-radius: 5px;
-  border-bottom: 7px solid #b27600;
-  width: 800px;
-  border-right: 7px solid #b27600;
+  border-bottom: 3px solid #b27600;
+  width: 8px;
+  border-right: 3px solid #b27600;
   margin: auto;
-  width: 50%;
-  padding: 10px;
-  box-shadow: 10px 10px 15px #ffaa00;
+  width: 20%;
+  padding-right: 10px;
+  box-shadow: 10px 10px 15px #5a5956;
 }
 
 .p1 {
@@ -90,23 +95,42 @@ h1 {
   margin: auto;
   width: 20;
   padding: 1px;
+  
+  
 }
 
 p:hover {
   transform: scale(1.1);
   /* transform: translate(20px); */
+  
 }
+
+
+
 
 .under2 {
   display: inline-block;
+  border-radius: 10px;
+  font-family:  "Stick No Bills", sans-serif;
   margin: 0px;
-  margin-right: 100px;
+  margin-right: 1px;
+  margin-bottom: 1px;
   padding: 10px;
-  background-color: gainsboro;
+  background-color: #ffaa00;
   font-size: 20px;
-  color: red;
+  
 }
 
 .under2 li {
   display: inline;
+}
+
+.moreInfoCont{
+
+ color:black; 
+
+}
+
+.moreInfoCont:hover{
+  color:darkslategray;
 }
