@@ -59,6 +59,7 @@ h1 {
   font-size: 100px;
   color: #ffaa00;
   font-family: "Stick No Bills", sans-serif;
+  border-radius: 5px;
   border-bottom: 7px solid #b27600;
   width: 800px;
   border-right: 7px solid #b27600;
@@ -70,19 +71,22 @@ h1 {
 
 .p1 {
   color: #ffaa00;
+  border: solid 1px #b27600;
+  border-radius: 360px;
   text-align: center;
+  font-family:  "Stick No Bills", sans-serif;
   font-size: 100px;
   transition: all 1s;
-  box-shadow: 10px 10px 10px 10px #ffaa00;
-  width: 800px;
+  box-shadow: 2px 2px 2px 2px #ffaa00;
+  width: 300px;
   margin: auto;
-  width: 50%;
-  padding: 10px;
+  width: 20;
+  padding: 1px;
 }
 
 p:hover {
-  /* transform: scale(1.1) */
-  transform: translate(20px, 40px);
+  transform: scale(1.1);
+  /* transform: translate(20px); */
 }
 
 .under2 {
