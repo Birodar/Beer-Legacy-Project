@@ -11,10 +11,18 @@ body {
 }
 
 .ul1 {
+  border-radius: 10px;
   display: inline-block;
   list-style: none;
   text-align: right;
-  background-color: gainsboro;
+  background-color: #ffaa00;
+  margin: 1%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.TMainPage{
+  color:black; 
 }
 .container2 {
   display: flex;
