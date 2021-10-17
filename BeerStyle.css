@@ -4,25 +4,47 @@ body {
 }
 
 .navdiv {
+  
   text-align: right;
   font-family: "Stick No Bills", sans-serif;
   color: black;
   font-size: 20px;
+  
 }
 
-.ul1 {
+.ul1  {
   border-radius: 10px;
   display: inline-block;
-  list-style: none;
   text-align: right;
+  list-style: none;
   background-color: #ffaa00;
   margin: 1%;
   padding-left: 5px;
   padding-right: 5px;
 }
 
+.ul1 li{
+  display:inline;
+}
+.Facebook {
+  width: 40px;
+  height: 40px;
+ 
+ 
+}
+
+
+.Linkedin {
+  width: 40px;
+  height: 40px;
+ 
+ 
+}
 .TMainPage {
+  
   color: black;
+  
+  
 }
 
 .TMainPage:hover {
@@ -54,7 +76,7 @@ body {
   column-gap: 10px;
   margin: 20px 20px 20px 20px;
 }
-img {
+.bodyImg {
   border-radius: 10px;
   width: 450px;
   height: 300px;
