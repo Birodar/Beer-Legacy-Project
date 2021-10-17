@@ -22,10 +22,10 @@ body {
 }
 
 .TMainPage {
-  color:black; 
-} 
+  color: black;
+}
 
-.TMainPage:hover{
+.TMainPage:hover {
   color: darkslategray;
 }
 .container2 {
@@ -83,11 +83,10 @@ h1 {
 }
 
 .p1 {
-  color: #ffaa00;
   border: solid 1px #b27600;
   border-radius: 360px;
   text-align: center;
-  font-family:  "Stick No Bills", sans-serif;
+  font-family: "Stick No Bills", sans-serif;
   font-size: 100px;
   transition: all 1s;
   box-shadow: 2px 2px 2px 2px #ffaa00;
@@ -95,8 +94,14 @@ h1 {
   margin: auto;
   width: 20;
   padding: 1px;
-  
-  
+}
+
+.pa{
+  color: #ffaa00;
+
+}
+.pa:hover{
+  color: #fbff00 ;
 }
 
 p:hover {
@@ -105,32 +110,26 @@ p:hover {
   
 }
 
-
-
-
 .under2 {
   display: inline-block;
   border-radius: 10px;
-  font-family:  "Stick No Bills", sans-serif;
+  font-family: "Stick No Bills", sans-serif;
   margin: 0px;
   margin-right: 1px;
   margin-bottom: 1px;
   padding: 10px;
   background-color: #ffaa00;
   font-size: 20px;
-  
 }
 
 .under2 li {
   display: inline;
 }
 
-.moreInfoCont{
-
- color:black; 
-
+.moreInfoCont {
+  color: black;
 }
 
-.moreInfoCont:hover{
-  color:darkslategray;
+.moreInfoCont:hover {
+  color: darkslategray;
 }
