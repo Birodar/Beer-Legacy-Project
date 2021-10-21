@@ -1,18 +1,16 @@
 body {
   background-image: url(minblack.jpg);
-  background-size: center;
+  background-size: auto;
 }
 
 .navdiv {
-  
   text-align: right;
   font-family: "Stick No Bills", sans-serif;
   color: black;
   font-size: 20px;
-  
 }
 
-.ul1  {
+.ul1 {
   border-radius: 10px;
   display: inline-block;
   text-align: right;
@@ -23,28 +21,20 @@ body {
   padding-right: 5px;
 }
 
-.ul1 li{
-  display:inline;
+.ul1 li {
+  display: inline;
 }
 .Facebook {
   width: 40px;
   height: 40px;
- 
- 
 }
-
 
 .Linkedin {
   width: 40px;
   height: 40px;
- 
- 
 }
 .TMainPage {
-  
   color: black;
-  
-  
 }
 
 .TMainPage:hover {
@@ -114,22 +104,19 @@ h1 {
   box-shadow: 2px 2px 2px 2px #ffaa00;
   width: 300px;
   margin: auto;
-  width: 20;
   padding: 1px;
 }
 
-.pa{
+.pa {
   color: #ffaa00;
-
 }
-.pa:hover{
-  color: #fbff00 ;
+.pa:hover {
+  color: #fbff00;
 }
 
 p:hover {
   transform: scale(1.1);
   /* transform: translate(20px); */
-  
 }
 
 .under2 {
