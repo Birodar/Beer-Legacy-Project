@@ -53,7 +53,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   column-gap: 10px;
   margin: 20px 20px 20px 20px;
 }
@@ -103,6 +103,7 @@ h1 {
   transition: all 1s;
   box-shadow: 2px 2px 2px 2px #ffaa00;
   width: 300px;
+  margin-bottom: auto;
   margin: auto;
   padding: 1px;
 }
